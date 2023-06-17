@@ -265,6 +265,11 @@ input::placeholder{
     width: 8px;
 }
 
+.ikki-temp{
+    display: flex;
+    gap: 30px;
+}
+
 .grd{
     display: flex;
     gap: 40px;
