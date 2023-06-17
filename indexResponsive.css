@@ -1,0 +1,106 @@
+ /* Planshetlar uchun moslashtiruvchi kod  */
+ 
+ @media screen and (max-width: 999px) and (min-width: 640px){
+    .wrapper{
+        width: 630px;
+    }
+
+    .quyosh{
+        width: 200px;
+        height: 200px;
+    }
+
+    .data-container{
+        font-size: 18px;
+    }
+
+    .g23{
+        margin-top: -30px;
+    }
+
+    .ellipse{
+        margin-top: -100px;
+    }
+
+    .toliq-malumot-container{
+        margin-left: 11.5%;
+    }
+
+    .shahar{
+        width: 190px;
+        font-size: 12px;
+    }
+
+    .korsatgich{
+        font-size: 10px;
+    }
+
+    .shahar-img{
+        width: 28px;
+    }
+
+    .tab-none{
+        display: none;
+    }
+
+}
+
+/* Telefon uchun moslashtiruvchi kod */
+
+@media screen and (max-width: 639px) and (min-width: 320px){
+    .wrapper{
+        width: 310px;
+    }
+
+    .quyosh{
+        width: 100px;
+        height: 100px;
+    }
+
+    .gradus-container{
+        margin-top: 30px;
+    }
+
+    .data-container{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .g23{
+        margin-top: -30px;
+        font-size: 66px;
+    }
+
+    .ellipse{
+        margin-top: -100px;
+    }
+
+    .toliq-malumot-container{
+        margin-left: 0.5%;
+        width: 310px;
+        font-size: 12px;
+    }
+
+    .shahar{
+        width: 147px;
+        font-size: 12px;
+    }
+
+    .shaharcha{
+        margin-left: -10px;
+    }
+
+    .korsatgich{
+        font-size: 10px;
+    }
+
+    .shahar-img{
+        width: 28px;
+    }
+
+    .tab-none , .other-none , .phone-none{
+        display: none;
+    }
+
+}

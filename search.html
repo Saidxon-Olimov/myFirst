@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSSsearch.css">
+    <link rel="stylesheet" href="searchResponsive.css">
+    <title>Search</title>
+</head>
+<body>
+    <div class="wrapper-container">
+        <div class="wrapper">
+            <div class="header-container">
+
+                <a href="index.html">
+                    <div class="header-menu">
+                        <img src="assets/arrow-left-thin.svg" alt="" class="menu-bar">
+                    </div>
+                </a>
+
+                <div class="logo">Search for City</div>
+
+                <div class="header-restart">
+                    <!-- <img src="assets/Vector.svg" alt="" class="menu-bar"> -->
+                </div>
+
+            </div> 
+
+            <div class="search-input-container">
+                <div class="search-icon">
+                    <img class="s-icon" src="assets/Vector.svg" alt="">
+                </div>
+
+                <input onsearch="getWeeklyWeather(event)" placeholder="Search for City" class="search-input" type="search">
+                
+                <div class="gps">
+                    <img class="gps-icon" src="assets/Location on.svg" alt="">
+                </div>
+            </div>
+
+            <div class="tahmin-city">
+                <div class="city-one">
+                    <div class="one-name">
+                        Zurich
+                    </div>
+                    <div class="one-daraja">
+                        Cloudy
+                    </div>
+                </div>
+
+                <div class="one-icon">
+                    <img class="one-img" src="assets/quyoshli.svg" alt="" class="one-img">
+                </div>
+
+            </div>
+
+            <div class="tahmin-city">
+                <div class="city-one">
+                    <div class="one-name">
+                        Madrid
+                    </div>
+                    <div class="one-daraja">
+                        Rainy
+                    </div>
+                </div>
+
+                <div class="one-icon">
+                    <img class="one-img"  src="assets/rainy-weather-4034172-3337336@0 1.svg" alt="" class="one-img">
+                </div>
+
+            </div>
+
+            <div class="tahmin-city">
+                <div class="city-one">
+                    <div class="one-name">
+                        Talin
+                    </div>
+                    <div class="one-daraja">
+                        Cold
+                    </div>
+                </div>
+
+                <div class="one-icon">
+                    <img class="one-img"  src="assets/rain-3311753-2754887 1.svg" alt="" class="one-img">
+                </div>
+
+            </div>
+
+            <div class="tahmin-city">
+                <div class="city-one">
+                    <div class="one-name">
+                        Berlin
+                    </div>
+                    <div class="one-daraja">
+                        Snowy
+                    </div>
+                </div>
+
+                <div class="one-icon">
+                    <img class="one-img"  src="assets/rainy-weather-4034172-3337336@0 1.svg" alt="" class="one-img">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="JS/searchJs.js"></script>
+    <script src="JS/searchByCityName.js"></script>
+</body>
+</html>

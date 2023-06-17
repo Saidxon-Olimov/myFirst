@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,700;1,400&family=Poppins:wght@600&family=Righteous&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(21, 0, 255);
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper-container{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 900px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* .logo{
+    font-size: 25px;
+    color: white;
+} */
+
+.header-menu{
+    transition: .5s;
+}
+
+.header-menu:hover{
+    transform: rotateY(180deg);
+}
+
+.menu-bar{
+    width: 50px;
+    height: 50px;
+}
+
+.header-restart{
+    transition: .5s;
+}
+
+.header-restart:hover{
+    transform: rotate(90deg);
+}
+
+.text-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+}
+
+.havo-icon{
+    padding: 20px;
+}
+
+.quyosh{
+    width: 250px;
+    height: 250px;
+}
+
+.gradus-container{
+    padding: 20px;
+    display: flex;
+    font-size: 100px;
+    color: white;
+    margin-top: 70px;
+}
+
+.ellipse{
+    margin-top: -60px;
+    margin-left: 6px;
+}
+
+.data-container{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+    margin-top: -40px;
+}
+
+.data-havo{
+    display: flex;
+    justify-content: center;
+}
+
+.toliq-malumot-container{
+    width: 500px;
+    height: 100px;
+    margin-left: 22%;
+    margin-top: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.597);
+    box-shadow: 0 0 4px white;
+    background-color: rgb(102, 0, 255);
+    border-radius: 12px;
+    transition: .5s;
+}
+
+.toliq-malumot-container:hover{
+    transform: scale(1.1);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.toliq-malumot{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
+
+.zonik{
+    padding: 10px 30px;
+}
+
+.icon-animation{
+    animation: animation 3s infinite linear alternate;
+}
+
+@keyframes animation {
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+.icon-animation2{
+    animation: animation2 1s infinite linear alternate;
+}
+
+@keyframes animation2 {
+    0%{
+        transform: translateY(-4px);
+    }
+    
+    100%{
+        transform: translateY(6px);
+    }
+}
+
+.icon-animation3{
+    animation: animation3 1s infinite linear alternate;
+}
+
+@keyframes animation3 {
+    0%{
+        transform: translateX(-4px);
+    }
+    
+    100%{
+        transform: translateX(6px);
+    }
+}
+
+.data-day{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.today{
+    color: white;
+    font-size: 20px;
+}
+
+.sotli-havo-container{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+ 
+}
+.gradus-kichkina{
+    position: absolute;
+    width: 6px;
+    height: 7px;
+    right: 20px;
+    top: 80px;
+    z-index: 10;
+}
+.sotli-havo{
+    width: 60px;
+    height: auto;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.597);
+    box-shadow: 0 0 4px white;
+    background-color: rgba(102, 0, 255, 0.725);
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    transition: .5s;
+    position: relative;
+}
+
+.sotli-havo:hover{
+    transform: scale(1.15);
+    background-color: rgb(102, 0, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.soat-container{
+    display: flex;
+    justify-content: center;
+}
+
+.soat-icon{
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    margin-left: 4px;
+}
+
+.mitti-gradus{
+    margin-top: -35px;
+    margin-left: 24px;
+}
+
+.other-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.citys{
+    color: white;
+    font-size: 20px;
+}
+
+.plus-icon{
+    transition: .5s;
+}
+
+.plus-icon:hover{
+    transform: rotate(90deg);
+}
+
+.plus{
+    width: 24px;
+    height: 24px;
+}
+
+.ctys-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.shahar{
+    width: 210px;
+    position: relative;
+    display: flex;
+    color: white;
+    background-color: rgba(102, 0, 255, 0.725);
+    border: 1px solid rgba(255, 255, 255, 0.597);
+    box-shadow: 0 0 4px white;
+    border-radius: 8px;
+    transition: .5s;
+}
+
+.shahar:hover{
+    transform: scale(1.1);
+    background-color: rgb(102, 0, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.shahar-icon, .shaharcha, .shahar-gradus{
+    padding: 12px;
+    text-align: center;
+}
+
+.korsatgich{
+    color: #DEDDDD;
+    font-size: 12px;
+}
+
+.shahar-icon{
+    display: flex;
+}
+
+.shahar-img{
+    width: 38px;
+}
+
+.shahar-gradus{
+    display: flex;
+    align-items: center;
+    margin-left: px;
+}
+.degree-container{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+
+.shg-icon{
+    position: absolute;
+    right: 6px;
+    top: 0px;
+}
+
+.weather-icon{
+    width: 44px;
+    height: 44px;
+}
+
+.soat-icon{
+    padding-bottom: 8px;
+}

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,700;1,400&family=Poppins:wght@600&family=Righteous&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(21, 0, 255);
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper-container{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 900px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.logo{
+    font-size: 25px;
+    color: white;
+}
+
+.header-menu{
+    transition: .5s;
+    background-color: rgba(240, 248, 255, 0.367);
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.header-menu:hover{
+    transform: scale(1.1);
+    border: 2px solid white;
+    background-color: rgba(240, 248, 255, 0.515);
+    box-shadow: 0 0 4px white;
+}
+
+.menu-bar{
+    width: 50px;
+    height: 50px;
+}
+
+.header-restart{
+    transition: .5s;
+}
+
+.header-restart:hover{
+    transform: rotate(90deg);
+}
+
+.search-input-container{
+    margin-top: 40px;
+    display: flex;
+    background-color: rgba(240, 255, 255, 0.467);
+    border-radius: 12px;
+    justify-content: space-between;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
+.search-input-container:hover{
+    border: 2px solid white;
+}
+
+input::placeholder{
+    color: rgb(197, 197, 197);
+}
+
+.s-icon{
+    width: 35px;
+    height: 35px;
+}
+
+.search-icon{
+    padding: 18px 10px 12px 16px;
+    transition: .5s;
+}
+
+.search-icon:hover{
+    transform: rotate(90deg);
+}
+
+
+.search-input{
+    width: 800px;
+    background-color: rgba(240, 255, 255, 0);
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 12px;
+    font-size: 24px;
+    color: white;
+}
+
+.search-input:focus{
+    outline: none;
+    color: white;
+} 
+
+.gps{
+    padding: 14px 16px 10px 15px;
+    animation: animation 3s infinite linear alternate;
+}
+
+@keyframes animation {
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+.gps-icon{
+    width: 45px;
+    height: 45px;
+}
+
+.tahmin-city{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(102, 0, 255, 0.725);
+    border: 2px solid rgba(255, 255, 255, 0.432);
+    border-radius: 16px;
+    padding: 20px;
+    color: white;
+    margin: 60px 0;
+    position: relative;
+    transition: .5s;
+}
+
+.tahmin-city:hover{
+    transform: scale(1.08);
+}
+
+.one-name{
+    font-size: 28px;
+}
+
+.city-one{
+    margin-left: 30px;
+}
+
+.one-icon{
+    position: absolute;
+    right: -10px;
+    top: -30px;
+}
+
+.one-img{
+    width: 150px;
+    height: 150px;
+}
